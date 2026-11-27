@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="48" viewBox="0 0 1200 48" role="img" aria-labelledby="dividerTitle dividerDesc">
+  <title id="dividerTitle">Hydro divider placeholder</title>
+  <desc id="dividerDesc">A symmetrical hairline divider with a central gold diamond and flowing hydro curves.</desc>
+
+  <defs>
+    <linearGradient id="line" x1="0" y1="24" x2="1200" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#287FA5" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#527C91" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#76C9D7" stop-opacity="0.9"/>
+      <stop offset="0.8" stop-color="#527C91" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#287FA5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M40 24H560" stroke="url(#line)" stroke-width="1"/>
+  <path d="M640 24H1160" stroke="url(#line)" stroke-width="1"/>
+  <path d="M520 24C536 14 552 14 568 24C552 34 536 34 520 24Z" fill="none" stroke="#76C9D7" stroke-width="0.9" opacity="0.7"/>
+  <path d="M632 24C648 14 664 14 680 24C664 34 648 34 632 24Z" fill="none" stroke="#76C9D7" stroke-width="0.9" opacity="0.7"/>
+  <path d="M600 14L610 24L600 34L590 24Z" fill="#C5A76D" opacity="0.9"/>
+  <circle cx="600" cy="24" r="2.2" fill="#D9F3F3"/>
+  <circle cx="560" cy="24" r="1.5" fill="#76C9D7" opacity="0.8"/>
+  <circle cx="640" cy="24" r="1.5" fill="#76C9D7" opacity="0.8"/>
+  <circle cx="500" cy="24" r="1" fill="#B7C8D5" opacity="0.6"/>
+  <circle cx="700" cy="24" r="1" fill="#B7C8D5" opacity="0.6"/>
+</svg>

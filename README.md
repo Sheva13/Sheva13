@@ -1,23 +1,17 @@
 <!--
-  SHEV · GitHub profile README
-  Visual system: deep marine modernism with restrained French neoclassical ornament.
-  All artwork is original vector work; no character renders or game assets.
-  Asset slots and specifications: assets/README.md
+  Farrel Sheva · GitHub profile README
+  Placeholder vector artwork is wired in so the layout can be reviewed.
+  Replace files in assets/ in place; keep the same viewBox and aspect ratio.
+  Visual system and asset specifications: assets/README.md
 -->
 
-<!-- ASSET SLOT · BANNER
-     Add assets/banner.svg first, then uncomment:
 <p align="center">
   <img src="assets/banner.svg" alt="Abstract manta ray gliding through hydro-inspired currents in deep navy and cyan" width="100%" />
 </p>
--->
 
-<!-- ASSET SLOT · MONOGRAM (optional)
-     Use this only if the banner does not already carry the manta motif.
 <p align="center">
-  <img src="assets/manta-ray.svg" alt="SHEV manta ray monogram" width="48" height="48" />
+  <img src="assets/manta-ray.svg" alt="Farrel Sheva manta ray monogram" width="72" height="72" />
 </p>
--->
 
 <p align="center">
   <sub>DEPTH &nbsp;·&nbsp; FLUIDITY &nbsp;·&nbsp; CLARITY</sub>
@@ -39,13 +33,19 @@
   <a href="#connect">Connect</a>
 </p>
 
-<p align="center"><sub>≈ &nbsp; ─────── &nbsp; ◇ &nbsp; ─────── &nbsp; ≈</sub></p>
+<p align="center">
+  <img src="assets/hydro-divider.svg" alt="" width="100%" />
+</p>
 
 ## About Me
 
 I am an Informatics student and developer who likes software to feel considered at every layer — the interface, the data model, and the system underneath. My public work moves between web platforms, Flutter applications, and applied machine learning. A recurring interest runs through it: local-first tools, clear feedback, and interfaces that make complex state understandable.
 
 I am currently exploring security tooling and computer vision, and I enjoy turning ambiguous problems into small, legible systems.
+
+<p align="center">
+  <img src="assets/wave-pattern.svg" alt="Abstract hydro wave pattern" width="100%" height="100" />
+</p>
 
 ## Technical Interests
 
@@ -101,6 +101,10 @@ A passive phishing-analysis project for URLs, `.eml` files, and messages — ret
 
 <sub>Also exploring: <strong>Android Security Auditor</strong> — a native Qt/C++ workspace for Android triage over ADB. <a href="https://github.com/Sheva13/Android-Auditor">Repository →</a></sub>
 
+<p align="center">
+  <img src="assets/ornaments.svg" alt="" width="100%" />
+</p>
+
 ## Connect
 
 The best place to find my work and reach me is GitHub.
@@ -111,16 +115,15 @@ The best place to find my work and reach me is GitHub.
 <!-- Add email, LinkedIn, or a personal site here when available.
      Keep the same two-column bullet rhythm; do not add unverified links. -->
 
-<!-- ASSET SLOT · FOOTER
-     Add assets/footer.svg first, then uncomment:
+<p align="center">
+  <img src="assets/jellyfish.svg" alt="Abstract jellyfish line art" width="96" />
+</p>
+
 <p align="center">
   <img src="assets/footer.svg" alt="" width="100%" />
 </p>
--->
-
-<p align="center"><sub>≈ &nbsp; ─────── &nbsp; ◇ &nbsp; ─────── &nbsp; ≈</sub></p>
 
 <p align="center">
   <sub>Precision beneath the surface.</sub><br/>
-  <sub>SHEV · 2026</sub>
+  <sub>Farrel Sheva · 2026</sub>
 </p>

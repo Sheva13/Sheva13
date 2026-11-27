@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Farrel Sheva manta ray logo placeholder</title>
+  <desc id="logoDesc">A geometric manta ray crest in pearl and cyan on a deep navy rounded square with a thin silver border.</desc>
+
+  <defs>
+    <linearGradient id="badge" x1="16" y1="16" x2="496" y2="496" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101E38"/>
+      <stop offset="0.55" stop-color="#193D65"/>
+      <stop offset="1" stop-color="#101E38"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 248) scale(180 150)">
+      <stop offset="0" stop-color="#287FA5" stop-opacity="0.5"/>
+      <stop offset="0.65" stop-color="#287FA5" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#101E38" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="manta" x1="360" y1="250" x2="1240" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#287FA5"/>
+      <stop offset="0.28" stop-color="#76C9D7"/>
+      <stop offset="0.5" stop-color="#D9F3F3"/>
+      <stop offset="0.72" stop-color="#76C9D7"/>
+      <stop offset="1" stop-color="#287FA5"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="480" height="480" rx="104" fill="url(#badge)"/>
+  <rect x="16.75" y="16.75" width="478.5" height="478.5" rx="103.25" fill="none" stroke="#B7C8D5" stroke-width="1.5" opacity="0.55"/>
+  <rect x="26" y="26" width="460" height="460" rx="94" fill="none" stroke="#527C91" stroke-width="0.8" opacity="0.35"/>
+  <ellipse cx="256" cy="248" rx="188" ry="146" fill="url(#aura)"/>
+  <ellipse cx="256" cy="248" rx="188" ry="146" fill="none" stroke="#B7C8D5" stroke-width="0.9" opacity="0.22"/>
+  <ellipse cx="256" cy="248" rx="150" ry="118" fill="none" stroke="#C5A76D" stroke-width="0.7" opacity="0.2"/>
+
+  <g transform="translate(256 256) scale(0.42) translate(-800 -250)">
+    <path d="M800 120C762 120 734 142 706 168C650 208 570 246 480 276C438 290 398 300 360 306C400 320 448 326 496 322C572 316 650 294 710 260C740 244 766 228 790 216L800 252L810 216C834 228 860 244 890 260C950 294 1028 316 1104 322C1152 326 1200 320 1240 306C1202 300 1162 290 1120 276C1030 246 950 208 894 168C866 142 838 120 800 120Z" fill="url(#manta)"/>
+    <path d="M800 170C778 190 754 214 720 232C760 238 784 228 800 218C816 228 840 238 880 232C846 214 822 190 800 170Z" fill="#101E38" opacity="0.3"/>
+    <path d="M800 250C796 300 796 350 802 410" stroke="url(#manta)" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <path d="M770 150C756 136 738 130 724 134C734 146 748 158 762 166Z" fill="#D9F3F3"/>
+    <path d="M830 150C844 136 862 130 876 134C866 146 852 158 838 166Z" fill="#D9F3F3"/>
+    <path d="M800 120C762 120 734 142 706 168C650 208 570 246 480 276C438 290 398 300 360 306C400 320 448 326 496 322C572 316 650 294 710 260C740 244 766 228 790 216L800 252L810 216C834 228 860 244 890 260C950 294 1028 316 1104 322C1152 326 1200 320 1240 306C1202 300 1162 290 1120 276C1030 246 950 208 894 168C866 142 838 120 800 120Z" fill="none" stroke="#F4F5F2" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <path d="M256 44L262 50L256 56L250 50Z" fill="#C5A76D" opacity="0.9"/>
+  <circle cx="256" cy="50" r="1.5" fill="#D9F3F3" opacity="0.9"/>
+  <g fill="#76C9D7">
+    <circle cx="92" cy="128" r="1.6" opacity="0.5"/>
+    <circle cx="420" cy="128" r="1.6" opacity="0.5"/>
+    <circle cx="86" cy="370" r="1.2" opacity="0.35"/>
+    <circle cx="426" cy="370" r="1.2" opacity="0.35"/>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
-# SHEV · Visual Asset System
+# Farrel Sheva · Visual Asset System
 
-This folder is the source of truth for the SHEV profile artwork. The README is intentionally text-only until the vector files are supplied; the slots below are already reserved so the layout will not shift when the artwork arrives.
+This folder is the source of truth for the Farrel Sheva profile artwork. Placeholder vector files are now committed so the layout can be reviewed in place. Replace each file in this folder with your final artwork; keep the same file name, viewBox, and aspect ratio so the README does not shift.
 
 The direction is **original marine modernism**: Fontaine-era restraint, Hydro fluidity, and abyssal depth. Do not use Furina's face, character renders, official game UI, copied sigils, or traced assets. The result should read as an independent developer identity first; the inspiration should be felt, not announced.
 
@@ -55,7 +55,7 @@ These proportions apply to the SVG artwork. GitHub controls the README's own tex
 
 - **README:** GitHub's system font stack only. No custom CSS, webfonts, or JavaScript.
 - **SVG display:** a high-contrast serif such as `Georgia, 'Times New Roman', serif` for a single wordmark, if one is needed. Labels may use `ui-monospace, 'SFMono-Regular', Consolas, monospace`.
-- **Banner:** text-free by default. The README supplies the `SHEV` wordmark and tagline.
+- **Banner:** text-free by default. The README supplies the `Farrel Sheva` wordmark and tagline.
 - **If text is used in SVG:** convert it to paths or use generic font families; never link an external font.
 - **Letter spacing:** `0.16em–0.22em` for small uppercase labels; `0.01em–0.03em` for body text.
 - **Weight:** 300–500. Avoid heavy black weights and faux italic.
@@ -67,13 +67,13 @@ These proportions apply to the SVG artwork. GitHub controls the README's own tex
 
 | File | viewBox | Role | Status |
 | :--- | :--- | :--- | :--- |
-| `banner.svg` | `0 0 1600 500` | Hero above the wordmark | Reserved — awaiting local SVG |
-| `manta-ray.svg` | `0 0 512 512` | Avatar / monogram / social mark | Reserved — awaiting local SVG |
-| `hydro-divider.svg` | `0 0 1200 48` | Section break | Reserved — awaiting local SVG |
-| `wave-pattern.svg` | `0 0 1600 600` | Optional texture / personal site | Reserved — awaiting local SVG |
-| `ornaments.svg` | `0 0 1200 120` | Corners / section marks | Reserved — awaiting local SVG |
-| `jellyfish.svg` | `0 0 256 384` | Optional secondary motif | Reserved — awaiting local SVG |
-| `footer.svg` | `0 0 1600 240` | Footer strip | Reserved — awaiting local SVG |
+| `banner.svg` | `0 0 1600 500` | Hero above the wordmark | Placeholder — replace in place |
+| `manta-ray.svg` | `0 0 512 512` | Avatar / monogram / social mark | Placeholder — replace in place |
+| `hydro-divider.svg` | `0 0 1200 48` | Section break | Placeholder — replace in place |
+| `wave-pattern.svg` | `0 0 1600 600` | README texture strip / personal site | Placeholder — replace in place |
+| `ornaments.svg` | `0 0 1200 120` | Section mark divider | Placeholder — replace in place |
+| `jellyfish.svg` | `0 0 256 384` | Secondary motif | Placeholder — replace in place |
+| `footer.svg` | `0 0 1600 240` | Footer strip | Placeholder — replace in place |
 
 **Common requirements**
 
@@ -145,37 +145,21 @@ These proportions apply to the SVG artwork. GitHub controls the README's own tex
 
 ## 5. GitHub Integration
 
-The README currently renders as an elegant text-only profile. Do not uncomment an image tag before the corresponding file exists.
+Placeholder artwork is already wired into `README.md`. Replace each file in place; keep the same file name, viewBox, and aspect ratio so the layout does not shift.
 
-### After adding `assets/banner.svg`
+Current placements:
 
-```html
-<p align="center">
-  <img src="assets/banner.svg" alt="Abstract manta ray gliding through hydro-inspired currents in deep navy and cyan" width="100%" />
-</p>
-```
+| Asset | Placement |
+| :--- | :--- |
+| `banner.svg` | Top hero, full width |
+| `manta-ray.svg` | 72px monogram above the wordmark |
+| `hydro-divider.svg` | Full-width divider after the header |
+| `wave-pattern.svg` | Full-width 100px strip after About Me |
+| `ornaments.svg` | Full-width divider before Connect |
+| `jellyfish.svg` | 96px secondary mark above the footer |
+| `footer.svg` | Full-width footer strip |
 
-### Optional monogram
-
-If the banner does not already carry the manta motif, uncomment the monogram block in `README.md` after adding `assets/manta-ray.svg`.
-
-### After adding `assets/hydro-divider.svg`
-
-Replace the Unicode divider lines in `README.md` with:
-
-```html
-<p align="center">
-  <img src="assets/hydro-divider.svg" alt="" width="100%" />
-</p>
-```
-
-### After adding `assets/footer.svg`
-
-```html
-<p align="center">
-  <img src="assets/footer.svg" alt="" width="100%" />
-</p>
-```
+The final banner and footer should be text-free; the README supplies the name and closing line. The current placeholders carry a small label so they are easy to identify and replace.
 
 ### Profile settings (manual)
 

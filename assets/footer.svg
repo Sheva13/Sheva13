@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="240" viewBox="0 0 1600 240" role="img" aria-labelledby="footerTitle footerDesc">
+  <title id="footerTitle">Farrel Sheva footer placeholder</title>
+  <desc id="footerDesc">A deep navy footer strip with mirrored hydro currents, a small manta ray silhouette, fine silver lines, and a single gold hairline.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101E38"/>
+      <stop offset="0.5" stop-color="#193D65"/>
+      <stop offset="1" stop-color="#101E38"/>
+    </linearGradient>
+    <linearGradient id="manta" x1="360" y1="250" x2="1240" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#287FA5"/>
+      <stop offset="0.28" stop-color="#76C9D7"/>
+      <stop offset="0.5" stop-color="#D9F3F3"/>
+      <stop offset="0.72" stop-color="#76C9D7"/>
+      <stop offset="1" stop-color="#287FA5"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#287FA5" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#76C9D7" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#D9F3F3" stop-opacity="0.3"/>
+      <stop offset="0.75" stop-color="#76C9D7" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#287FA5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="240" fill="url(#bg)"/>
+  <path d="M80 24H1520" stroke="#C5A76D" stroke-width="0.8" opacity="0.38"/>
+
+  <g fill="none" stroke="url(#wave)" stroke-linecap="round">
+    <path d="M-40 160C160 132 300 188 480 162C660 136 790 192 970 166C1150 140 1300 188 1640 158" stroke-width="1.2" opacity="0.45"/>
+    <path d="M-40 188C170 158 320 214 500 188C680 162 820 218 1000 192C1180 166 1330 214 1640 184" stroke-width="0.9" opacity="0.3"/>
+    <path d="M-40 132C150 106 290 158 470 134C650 110 780 162 960 138C1140 114 1290 160 1640 130" stroke-width="0.8" opacity="0.22"/>
+  </g>
+
+  <g transform="translate(800 120) scale(0.18) translate(-800 -250)" opacity="0.9">
+    <path d="M800 120C762 120 734 142 706 168C650 208 570 246 480 276C438 290 398 300 360 306C400 320 448 326 496 322C572 316 650 294 710 260C740 244 766 228 790 216L800 252L810 216C834 228 860 244 890 260C950 294 1028 316 1104 322C1152 326 1200 320 1240 306C1202 300 1162 290 1120 276C1030 246 950 208 894 168C866 142 838 120 800 120Z" fill="url(#manta)"/>
+    <path d="M800 250C796 300 796 350 802 410" stroke="url(#manta)" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.75"/>
+    <path d="M770 150C756 136 738 130 724 134C734 146 748 158 762 166Z" fill="#D9F3F3"/>
+    <path d="M830 150C844 136 862 130 876 134C866 146 852 158 838 166Z" fill="#D9F3F3"/>
+  </g>
+
+  <g stroke="#B7C8D5" stroke-width="0.7" opacity="0.32" fill="none">
+    <path d="M40 64V40H64"/>
+    <path d="M1560 64V40H1536"/>
+    <path d="M40 176V200H64"/>
+    <path d="M1560 176V200H1536"/>
+  </g>
+  <g fill="#C5A76D" opacity="0.7">
+    <path d="M40 40L43 37L46 40L43 43Z"/>
+    <path d="M1554 40L1557 37L1560 40L1557 43Z"/>
+    <path d="M40 200L43 197L46 200L43 203Z"/>
+    <path d="M1554 200L1557 197L1560 200L1557 203Z"/>
+  </g>
+
+  <text x="800" y="218" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="3" fill="#B7C8D5" opacity="0.55">FOOTER PLACEHOLDER · 1600 × 240</text>
+</svg>

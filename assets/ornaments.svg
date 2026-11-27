@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-labelledby="ornamentTitle ornamentDesc">
+  <title id="ornamentTitle">Hydro ornament divider placeholder</title>
+  <desc id="ornamentDesc">A symmetrical ornamental divider with mirrored curves, tapered leaves, a central gold diamond, and fine silver lines.</desc>
+
+  <defs>
+    <linearGradient id="rule" x1="0" y1="60" x2="1200" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#527C91" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#527C91" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#B7C8D5" stop-opacity="0.7"/>
+      <stop offset="0.8" stop-color="#527C91" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#527C91" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scroll" x1="0" y1="60" x2="1200" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#287FA5" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#76C9D7" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#D9F3F3" stop-opacity="0.85"/>
+      <stop offset="0.65" stop-color="#76C9D7" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#287FA5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M40 60H500" stroke="url(#rule)" stroke-width="1"/>
+  <path d="M700 60H1160" stroke="url(#rule)" stroke-width="1"/>
+
+  <path d="M500 60C516 42 540 42 556 60C540 78 516 78 500 60Z" fill="none" stroke="url(#scroll)" stroke-width="1.1"/>
+  <path d="M700 60C684 42 660 42 644 60C660 78 684 78 700 60Z" fill="none" stroke="url(#scroll)" stroke-width="1.1"/>
+
+  <path d="M540 60C548 48 560 48 568 60C560 72 548 72 540 60Z" fill="#76C9D7" opacity="0.22"/>
+  <path d="M660 60C652 48 640 48 632 60C640 72 652 72 660 60Z" fill="#76C9D7" opacity="0.22"/>
+
+  <path d="M480 60C468 48 468 32 484 28" fill="none" stroke="#B7C8D5" stroke-width="0.9" opacity="0.5"/>
+  <path d="M720 60C732 48 732 32 716 28" fill="none" stroke="#B7C8D5" stroke-width="0.9" opacity="0.5"/>
+
+  <path d="M600 38L614 60L600 82L586 60Z" fill="#C5A76D" opacity="0.9"/>
+  <circle cx="600" cy="60" r="3" fill="#D9F3F3"/>
+  <circle cx="570" cy="60" r="1.4" fill="#76C9D7" opacity="0.8"/>
+  <circle cx="630" cy="60" r="1.4" fill="#76C9D7" opacity="0.8"/>
+  <circle cx="460" cy="60" r="1.2" fill="#C5A76D" opacity="0.7"/>
+  <circle cx="740" cy="60" r="1.2" fill="#C5A76D" opacity="0.7"/>
+</svg>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="waveTitle waveDesc">
+  <title id="waveTitle">Hydro wave pattern placeholder</title>
+  <desc id="waveDesc">Layered abstract currents in hydro blue and cyan on a transparent field.</desc>
+
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#287FA5" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#287FA5" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#76C9D7" stop-opacity="0.7"/>
+      <stop offset="0.82" stop-color="#287FA5" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#287FA5" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="wash" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 300) scale(760 300)">
+      <stop offset="0" stop-color="#287FA5" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#287FA5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="600" fill="url(#wash)"/>
+  <g fill="none" stroke="url(#wave)" stroke-linecap="round">
+    <path d="M-60 180C180 120 340 240 560 180C780 120 940 240 1160 180C1380 120 1540 240 1660 180" stroke-width="1.4" opacity="0.7"/>
+    <path d="M-60 230C180 170 340 290 560 230C780 170 940 290 1160 230C1380 170 1540 290 1660 230" stroke-width="1.1" opacity="0.55"/>
+    <path d="M-60 280C180 220 340 340 560 280C780 220 940 340 1160 280C1380 220 1540 340 1660 280" stroke-width="0.9" opacity="0.4"/>
+    <path d="M-60 330C180 270 340 390 560 330C780 270 940 390 1160 330C1380 270 1540 390 1660 330" stroke-width="1.2" opacity="0.5"/>
+    <path d="M-60 380C180 320 340 440 560 380C780 320 940 440 1160 380C1380 320 1540 440 1660 380" stroke-width="0.8" opacity="0.32"/>
+    <path d="M-60 430C180 370 340 490 560 430C780 370 940 490 1160 430C1380 370 1540 490 1660 430" stroke-width="1" opacity="0.4"/>
+  </g>
+
+  <g fill="#76C9D7">
+    <circle cx="220" cy="150" r="2" opacity="0.4"/>
+    <circle cx="410" cy="260" r="1.4" opacity="0.3"/>
+    <circle cx="610" cy="190" r="1.8" opacity="0.35"/>
+    <circle cx="820" cy="330" r="1.2" opacity="0.25"/>
+    <circle cx="1030" cy="220" r="2.2" opacity="0.38"/>
+    <circle cx="1240" cy="350" r="1.5" opacity="0.28"/>
+    <circle cx="1420" cy="250" r="1.7" opacity="0.3"/>
+  </g>
+</svg>
