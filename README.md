@@ -23,7 +23,7 @@
   <sub>DEPTH &nbsp;·&nbsp; FLUIDITY &nbsp;·&nbsp; CLARITY</sub>
 </p>
 
-<h1 align="center">SHEV</h1>
+<h1 align="center">Farrel Sheva</h1>
 
 <p align="center">
   <strong>Informatics Student · Developer</strong><br/>
